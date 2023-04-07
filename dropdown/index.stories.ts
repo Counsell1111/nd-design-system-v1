@@ -1,1 +1,1 @@
-export const base = () => html` <button class="btn">Click me!</button> `;
+export const story1 = () => "<button>Hello</button>";
