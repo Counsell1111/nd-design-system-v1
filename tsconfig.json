@@ -1,7 +1,17 @@
 {
-  "target": "esnext",
-  "allowNonTsExtensions": "true",
-  "experimentalDecorators": "true",
-  "jsx": "react",
-  "reactNamespace": "React",
+  "compilerOptions": {
+    "target": "ESNext",
+    "allowJs": true,
+    "allowNonTsExtensions": true,
+    "experimentalDecorators": true,
+    "jsx": "react",
+    "reactNamespace": "React",
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "sourceMap": true,
+    "paths": {
+      "~/*": ["*"],
+      "@divriots/starter-sass/*": ["*"]
+    }
+  }
 }
