@@ -1,1 +1,1 @@
-export const story1 = () => "<button>Hello</button>";
+export const story1 = () => "<Button appearance="primary">Get started</Button>";
