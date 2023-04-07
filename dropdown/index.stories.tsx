@@ -1,4 +1,4 @@
-import { Button, ButtonProps } from "~/fluentui/react-components";
+import { Button } from "@fluentui/react-components";
 import * as React from "react";
 
 export const allowToggle = () => (
