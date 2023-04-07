@@ -13,6 +13,7 @@
     "lit": "^2.2.2"
   },
   "dependencies": {
-    "@fluentui/react": "^8.107.3"
+    "@fluentui/react": "^8.107.3",
+    "@fluentui/react-components": "^9.18.8"
   }
 }
