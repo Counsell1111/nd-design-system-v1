@@ -9,6 +9,8 @@
     "module": "ESNext",
     "moduleResolution": "Node",
     "sourceMap": true,
+    "baseUrl": ".",
+    "outDir": "./dist",
     "paths": {
       "~/*": ["*"],
       "@divriots/starter-sass/*": ["*"]
