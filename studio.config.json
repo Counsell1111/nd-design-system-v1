@@ -1,0 +1,35 @@
+{
+ "packages": {
+  "dir": "",
+  "menu": [
+   [
+    "TOKENS",
+    [
+     "color",
+     "tokens"
+    ]
+   ],
+   [
+    "COMPONENTS",
+    [
+     "button",
+     "dropdown"
+    ]
+   ],
+   [
+    "INFRASTRUCTURE",
+    [
+     "doc-layout",
+     "sd-input"
+    ]
+   ],
+   "love"
+  ]
+ },
+ "dependencies": {
+  "autoInstall": false
+ },
+ "doc": {
+  "markdownEngine": "mdjs"
+ }
+}
