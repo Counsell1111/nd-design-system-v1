@@ -26,6 +26,8 @@ return (
   <Button shape="circular">Circular</Button>
   <Button shape="circular" icon={<CalendarMonthRegular />}>Default</Button>
   <Button shape="circular" appearance="primary" icon={<CalendarMonthRegular />}>Primary</Button>
+  <Button size="large" shape="circular" appearance='primary'>Large</Button>
+  <Button size="large" shape="circular" appearance='primary' icon={<CalendarMonthRegular />}>Large with calendar icon</Button>
   </div>
   </>
   );
