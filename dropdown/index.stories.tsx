@@ -3,7 +3,7 @@ import ReactDOM from 'react-dom';
 import { FluentProvider, teamsLightTheme, makeStyles, Button } from '@fluentui/react-components';
 
 
-const ExampleComponent {
+  export const ExampleComponent = () => {
 return (
   <>
   <Button shape="circular" appearance='primary'>Primary</Button>
