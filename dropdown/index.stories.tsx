@@ -24,6 +24,8 @@ return (
    <div className={styles.wrapper}>
   <Button shape="circular" appearance='primary'>Primary</Button>
   <Button shape="circular">Circular</Button>
+  <Button shape="circular" icon={<CalendarMonthRegular />}>Default</Button>
+  <Button shape="circular" appearance="primary" icon={<CalendarMonthRegular />}>Primary</Button>
   </div>
   </>
   );
