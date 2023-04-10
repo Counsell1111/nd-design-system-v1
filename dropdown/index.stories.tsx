@@ -1,6 +1,6 @@
-
-import { makeStyles, Button } from "@fluentui/react-components";
-import * as React from "react";
+import React from 'react';
+import ReactDOM from 'react-dom';
+import { FluentProvider, teamsLightTheme, makeStyles, Button } from '@fluentui/react-components';
 
 const useStyles = makeStyles({
   wrapper: {
@@ -10,8 +10,11 @@ const useStyles = makeStyles({
 });
 
 export const FluentButton = () => (
-    <>
-    <Button appearance='primary'>Primary</Button>
+
+<>
+        <FluentProvider theme={teamsLightTheme}>
+           <Button appearance='primary'>Primary</Button>
     <Button shape="circular">Circular</Button>
+        </FluentProvider>,
     </>
 );
