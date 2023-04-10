@@ -7,8 +7,6 @@ import {
   CalendarMonthRegular,
 } from "@fluentui/react-icons";
 
-const CalendarMonth = bundleIcon(CalendarMonthFilled, CalendarMonthRegular);
-
 const useStyles = makeStyles({
   wrapper: {
     columnGap: "15px",
