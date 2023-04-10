@@ -20,8 +20,6 @@ export const FluentButton = () => (
        <>
         <FluentProvider theme={teamsLightTheme}>
         <div className={styles.wrapper}>
-        <Button shape="circular" icon={<CalendarMonthRegular />}>Default</Button>
-      <Button shape="circular" appearance="primary" icon={<CalendarMonthRegular />}>Primary</Button>
            <Button shape="circular" appearance='primary'>Primary</Button>
            <Button shape="circular">Circular</Button>
            </div>
