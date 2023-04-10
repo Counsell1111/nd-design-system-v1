@@ -8,7 +8,7 @@ const useStyles = makeStyles({
     display: "flex",
   },
 });
-
+const styles = useStyles();
 export const FluentButton = () => (
 
 <>
