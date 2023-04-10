@@ -18,15 +18,13 @@ const useStyles = makeStyles({
 const styles = useStyles();
 export const FluentButton = () => (
        <>
-       <div className={styles.wrapper}>
         <FluentProvider theme={teamsLightTheme}>
-        <Button icon={<CalendarMonthRegular />}>Default</Button>
-      <Button appearance="primary" icon={<CalendarMonthRegular />}>
-        Primary
-      </Button>
-           <Button appearance='primary'>Primary</Button>
+        <div className={styles.wrapper}>
+        <Button shape="circular" icon={<CalendarMonthRegular />}>Default</Button>
+      <Button shape="circular" appearance="primary" icon={<CalendarMonthRegular />}>Primary</Button>
+           <Button shape="circular" appearance='primary'>Primary</Button>
            <Button shape="circular">Circular</Button>
+           </div>
         </FluentProvider>
-        </div>
     </>
 );
