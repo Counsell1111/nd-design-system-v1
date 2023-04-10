@@ -1,4 +1,4 @@
 
 export const FluentButton = () => (
-        <Button shape="circular" appearance='primary'>Primary</Button>
+        <button shape="circular" appearance='primary'>Primary</button>
 );
