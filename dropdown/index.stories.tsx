@@ -7,6 +7,7 @@ import {
   CalendarMonthRegular,
 } from "@fluentui/react-icons";
 
+const CalendarMonth = bundleIcon(CalendarMonthFilled, CalendarMonthRegular);
 
 const useStyles = makeStyles({
   wrapper: {
@@ -19,6 +20,10 @@ export const FluentButton = () => (
        <>
        <div className={styles.wrapper}>
         <FluentProvider theme={teamsLightTheme}>
+        <Button icon={<CalendarMonthRegular />}>Default</Button>
+      <Button appearance="primary" icon={<CalendarMonthRegular />}>
+        Primary
+      </Button>
            <Button appearance='primary'>Primary</Button>
            <Button shape="circular">Circular</Button>
         </FluentProvider>
