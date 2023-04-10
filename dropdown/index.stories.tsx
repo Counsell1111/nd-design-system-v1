@@ -14,7 +14,7 @@ export const FluentButton = () => (
 <>
         <FluentProvider theme={teamsLightTheme}>
            <Button appearance='primary'>Primary</Button>
-    <Button shape="circular">Circular</Button>
-        </FluentProvider>,
+           <Button shape="circular">Circular</Button>
+        </FluentProvider>
     </>
 );
