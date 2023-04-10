@@ -17,7 +17,7 @@ const useStyles = makeStyles({
   },
 });
 
-export const ExampleComponent = () => {
+const ExampleComponent = () => {
   const styles = useStyles();
 return (
   <>
