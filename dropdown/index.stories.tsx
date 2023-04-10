@@ -1,6 +1,13 @@
-import React from "react";
-import { Button } from "@fluentui/react-components";
 
+import { makeStyles, Button } from "@fluentui/react-components";
+import * as React from "react";
+
+const useStyles = makeStyles({
+  wrapper: {
+    columnGap: "15px",
+    display: "flex",
+  },
+});
 
 export const FluentButton = () => (
     <>
