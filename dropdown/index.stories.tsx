@@ -11,11 +11,9 @@ const useStyles = makeStyles({
   const styles = useStyles();
 export const FluentButton = () => (
        <>
-       <div className={styles.wrapper}>
         <FluentProvider theme={teamsLightTheme}>
            <Button appearance='primary'>Primary</Button>
            <Button shape="circular">Circular</Button>
         </FluentProvider>
-        </div>
     </>
 );
