@@ -3,6 +3,8 @@ import { Button } from "@fluentui/react-components";
 
 
 export const FluentButton = () => (
+    <>
     <Button appearance='primary'>Primary</Button>
     <Button shape="circular">Circular</Button>
+    </>
 );
