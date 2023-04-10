@@ -1,4 +1,3 @@
-import React from 'react';
 import { FluentProvider, teamsLightTheme, makeStyles, Button } from '@fluentui/react-components';
 
 export const FluentButton = () => (
