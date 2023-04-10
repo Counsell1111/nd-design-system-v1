@@ -9,7 +9,7 @@ import '../src/button.css';
 ```
 
 ```js preview-story
-export const base = () => html` <button class="btn">Click me!</button> `;
+export const base = () => html`  <Button shape="circular" appearance='primary'>Primary</Button> `;
 ```
 
 ```js preview-story
