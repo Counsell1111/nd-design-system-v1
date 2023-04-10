@@ -8,14 +8,14 @@ const useStyles = makeStyles({
     display: "flex",
   },
 });
-const styles = useStyles();
+  const styles = useStyles();
 export const FluentButton = () => (
        <>
+       <div className={styles.wrapper}>
         <FluentProvider theme={teamsLightTheme}>
-        <div className={styles.wrapper}>
-           <Button shape="circular" appearance='primary'>Primary</Button>
+           <Button appearance='primary'>Primary</Button>
            <Button shape="circular">Circular</Button>
-           </div>
         </FluentProvider>
+        </div>
     </>
 );
