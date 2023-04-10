@@ -13,10 +13,8 @@ export const FluentButton = () => (
 
 <>
         <FluentProvider theme={teamsLightTheme}>
-        <div className={styles.wrapper}>
            <Button appearance='primary'>Primary</Button>
            <Button shape="circular">Circular</Button>
-        </div>
         </FluentProvider>
     </>
 );
