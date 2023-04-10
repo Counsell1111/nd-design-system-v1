@@ -21,8 +21,10 @@ export const ExampleComponent = () => {
   const styles = useStyles();
 return (
   <>
+   <div className={styles.wrapper}>
   <Button shape="circular" appearance='primary'>Primary</Button>
   <Button shape="circular">Circular</Button>
+  </div>
   </>
   );
 };
