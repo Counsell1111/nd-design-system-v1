@@ -1,6 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { FluentProvider, teamsLightTheme, makeStyles, Button } from '@fluentui/react-components';
+import {
+  bundleIcon,
+  CalendarMonthFilled,
+  CalendarMonthRegular,
+} from "@fluentui/react-icons";
+
 
 const useStyles = makeStyles({
   wrapper: {
