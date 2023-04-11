@@ -1,5 +1,5 @@
-import React from 'react';
 import { FluentProvider, teamsLightTheme, Button } from '@fluentui/react-components';
+import React from 'react';
 
 export const Shape = () => {
     <>
