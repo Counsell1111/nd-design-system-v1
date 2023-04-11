@@ -9,4 +9,4 @@ export const Shape = () => {
       <Button shape="square">Square</Button>
     </FluentProvider>
     </>
-}
+};
